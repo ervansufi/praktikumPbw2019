@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login Pesbuk</title>
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/')?>css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <body class="bg-light">
 
@@ -14,11 +14,11 @@
     <div class="row">
         <div class="col-md-6">
 
-        <p>&larr; <a href="<?php echo base_url();?>">Home</a>
+        <p>&larr; <a href="#">Home</a>
 
         <h4>Masuk ke Pesbuk</h4>
-        <p>Belum punya akun? <a href="<?php echo base_url('index.php/register')?>">Daftar di sini</a></p>
-        <form action="<?php echo base_url('index.php/login/doLogin')?>" method="POST">
+        <p>Belum punya akun? <a href="#">Daftar di sini</a></p>
+        <form action="#" method="POST">
 
             <div class="form-group">
                 <label for="username">Username</label>
@@ -38,9 +38,6 @@
         </div>
 
     </div>
-    <?php if (isset($error)){
-                echo "<div style='color:red;'>$error</div>";
-            } ?>
 </div>
     
 </body>
