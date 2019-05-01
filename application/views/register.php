@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register Pesbuk</title>
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/')?>css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <body class="bg-light">
 
@@ -14,12 +14,12 @@
     <div class="row">
         <div class="col-md-6">
 
-        <p>&larr; <a href="<?php echo base_url('');?>">Home</a>
+        <p>&larr; <a href="#">Home</a>
 
         <h4>Bergabunglah bersama ribuan orang lainnya...</h4>
-        <p>Sudah punya akun? <a href="<?php echo base_url('index.php/login')?>">Login di sini</a></p>
+        <p>Sudah punya akun? <a href="">Login di sini</a></p>
 
-        <form action="<?php echo base_url('index.php/register/addUser')?>" method="POST">
+        <form action="" method="POST">
 
             <div class="form-group">
                 <label for="name">Nama Lengkap</label>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col-md-6">
-            <img class="img img-responsive" src="<?php echo base_url('assets/')?>img/connect.png" />
+            <img class="img img-responsive" src="img/connect.png" />
         </div>
 
     </div>
