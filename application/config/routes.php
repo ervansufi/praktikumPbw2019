@@ -53,7 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-//nama route - nama controller
+//$route['namaRoute'] = 'namaController';
 $route['register'] = 'register';
 $route['login'] = 'login';
 $route['timeline'] = 'pesbuk/timeline';
