@@ -5,4 +5,5 @@
 4. Buat database baru bernama pesbuk di http://localhost/phpmyadmin/
 5. Import berkas database pesbuk.sql
 6. Atur application/config/database.php
-7. Atur application/config/autoload.php
+7. Test http://localhost/pesbuk/
+8. Atur application/config/autoload.php
