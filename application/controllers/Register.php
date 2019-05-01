@@ -7,12 +7,11 @@ class Register extends CI_Controller {
     {
         parent::__construct();
         $this->load->model("user_model");
-        $this->load->library('form_validation');
     }
 
     public function index()
-	{
-		$this->load->view('register');
+    {
+	$this->load->view('register');
     }
     
     public function addUser(){
